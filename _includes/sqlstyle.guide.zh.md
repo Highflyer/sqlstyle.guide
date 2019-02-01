@@ -2,8 +2,6 @@
 
 这篇文档翻译自以[署名-相同方式共享 4.0 国际协议][licence-zh]发布的 [http://www.sqlstyle.guide][sqlstyleguide]，译文以原文同样的协议发布。
 
-[[TOC]]
-
 ## Overview | 综述
 
 你可以直接使用这些指导方针，或者 [fork][fork] 后创建自己的版本 —— 最重要的是选择一套方针并严格遵守它。欢迎通过提交 [issue][issue] 或 [pull request][pull] 来提交建议或修复bug。
