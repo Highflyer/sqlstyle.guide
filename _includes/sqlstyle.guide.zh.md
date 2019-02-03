@@ -25,15 +25,15 @@
 
 ```sql
 SELECT file_hash  -- stored ssdeep hash
-  FROM file_system
- WHERE file_name = '.vimrc';
+FROM file_system
+WHERE file_name = '.vimrc';
 ```
 ```sql
 /* Updating the file record after writing to the file */
 UPDATE file_system
-   SET file_modified_date = '1980-02-22 13:19:01.00000',
-       file_size = 209732
- WHERE file_name = '.vimrc';
+SET file_modified_date = '1980-02-22 13:19:01.00000',
+    file_size = 209732
+WHERE file_name = '.vimrc';
 ```
 
 ### Avoid | 应避免的事情
@@ -58,7 +58,7 @@ UPDATE file_system
 
 ```sql
 SELECT first_name
-  FROM staff;
+FROM staff;
 ```
 
 ### Tables | 表名
@@ -85,13 +85,13 @@ SELECT first_name
 
 ```sql
 SELECT first_name AS fn
-  FROM staff AS s1
-  JOIN students AS s2
+FROM staff AS s1
+JOIN students AS s2
     ON s2.mentor_id = s1.staff_num;
 ```
 ```sql
 SELECT SUM(s.monitor_tally) AS monitor_total
-  FROM staff AS s;
+FROM staff AS s;
 ```
 
 ### Stored procedures | 过程名
